@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #222;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+.tasks {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 8px;
+}
