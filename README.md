@@ -8,8 +8,8 @@ A simple task manager web page built with HTML and CSS.
 - Easy to open locally in a browser
 
 ## Project files
-- index.html — page structure
-- styles.css — styling for the task list and completed tasks
+- index.html ï¿½ page structure
+- styles.css ï¿½ styling for the task list and completed tasks
 
 ## How to open it
 1. Open the project folder in your browser or file explorer.
@@ -20,3 +20,8 @@ A simple task manager web page built with HTML and CSS.
 
 ## Git status
 This project is set up as a Git repository and the main branch contains the merged feature work.
+
+## Merge conflict note
+A merge conflict happened because both the change-title-1 and change-title-2 branches modified the same line in index.html, specifically the h1 title. Git could not decide which change to keep automatically because both edits were on the same text block.
+
+To resolve it, I removed the conflict markers (<<<<<<<, =======, >>>>>>>), kept a single final title, and then staged the file with git add, committed the merge, and pushed the result to GitHub.
